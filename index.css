@@ -1,0 +1,173 @@
+body{
+    background-image: url(https://wallpapercave.com/wp/wp4131597.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Roboto";
+    padding:0px;
+    margin: 0px;
+}
+.container{
+    width:100%;
+    padding: 60px 0px;
+}
+.box-foto{
+    width: 400px;
+    background-color: rgb(72, 70, 70);
+    text-align: left;
+    border-radius: 4px;
+    border: #212020;
+    border-width: .2rem 0 0;
+    float: right;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+
+}
+.nametag{
+    position: relative;
+    z-index: 3;
+    background-color: #fff;
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.2);
+    margin-top: -35px;
+    margin-right: 5px;
+    float: right;
+    padding: 5px 10px;
+}
+.box{
+    width: 900 px;
+    /* min-height: 300px; */
+    background-color: rgb(72, 70, 70);
+    color: rgb(26, 26, 26);
+    text-align: left;
+    border-radius: 4px;
+    border: solid #050505;
+    border-width: .2rem 0 0;
+    z-index: 2;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    padding: 0px 10px;
+}
+.list-box{
+    width: 98%;
+    padding: 10px 5px;
+    background-color:rgb(72, 70, 70);
+    color: rgb(26, 26, 26);
+    text-align: left;
+    border-radius: 4px;
+    border: solid #050505;
+    border-width: .2rem 0 0;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    font-size: small;
+}
+.table-box{
+    width: 100%;
+
+
+}
+.foto-profil{
+    width: 400px;
+    height: 400px;
+    z-index: 1;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+hr{
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+ul{
+    list-style: none;
+    margin-left: -30px;
+}
+li{
+    padding: 7px 10px;
+}
+.table-list-contain tbody tr td {
+    padding: 8px 8px;
+}
+
+.container-bar{
+    width: 100%;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #efefef;
+    border: 0.1px solid #000000;;
+    margin:4px 0px;
+}
+.bar{
+    height: 21px;
+    border-radius: 8px;
+    background-image: linear-gradient(to bottom right, #000000, #000000, #000000);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+}
+.card-left{
+    width: 310px;
+    padding-right: 10px; 
+    float: left;
+}
+.card-right{
+    width:800px; 
+    padding-left:10px; 
+    float: right;
+}
+.contain{
+    width: 1130px;
+    height: 1050px;
+}
+
+@media only screen and (max-width: 812px) {
+    .container{
+        margin-top: 40px;
+        height: auto;
+    }
+    .contain{
+        width: 100%;
+        height: auto;
+    }
+    .card-left{
+        width:100%; 
+        float: none;
+        padding: 0px; 
+    }
+    .card-right{
+        width:100%; 
+        float: none;
+        padding:0px; 
+    }
+    .box-foto{
+        width: 92%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    .box{
+        width: 90%;
+    }
+    .container{
+        padding: 0px;
+    }
+    .box-side-info{
+        padding: 0px 10px;
+    }
+    .bg-foto{
+        background-color: #212020;
+        text-align: center;
+        padding: 5px 0px;
+    }
+    .foto-profil{
+        width: 220px;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box-foto{
+        width: 94%;
+    }
+}
